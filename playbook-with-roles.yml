@@ -1,0 +1,9 @@
+
+---
+- name: Install Apache, Redis and PostgreeSQL
+  hosts: local
+  become: true
+  roles:
+    #- role: apache.role
+    #- role: redis.role
+    - role: postegreeSQL.roles 
